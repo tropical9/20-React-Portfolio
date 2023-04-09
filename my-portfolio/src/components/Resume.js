@@ -8,7 +8,7 @@ function Resume() {
       <h2 className="resume-title">Resume</h2>
       <div className="resume-text">
         <p>
-          Here's a copy of my resume. You can also download it{" "}
+          Here's a list of my Professional Adventures. You can also download it{" "}
           {/* <a href={resume} target="_blank" rel="noreferrer">
             here
           </a> */}

@@ -52,7 +52,7 @@ function Contact() {
             onChange={handleChange}
           ></textarea>
         </div>
-        <button type="submit">Send Message</button>
+        <button class= "bg-sky-500 hover:bg-sky-700" type="submit">Send Message</button>
       </form>
     </section>
   );

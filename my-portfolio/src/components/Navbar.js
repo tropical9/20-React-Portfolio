@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-function Navigation() {
+function Navbar() {
   return (
-    <nav>
-      <ul>
+    <nav className='fixed w-full h-[80px] flex justify-between items-center px-2 bg-[#a7f3d0]'>
+      <ul className= 'flex'>
         <li>
           <NavLink exact to="/" activeClassName="active">
             About Me
@@ -26,8 +26,10 @@ function Navigation() {
           </NavLink>
         </li>
       </ul>
+
+
     </nav>
   );
 }
 
-export default Navigation;
+export default Navbar;

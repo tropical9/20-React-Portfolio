@@ -34,7 +34,7 @@ function Portfolio() {
 
   return (
     <section className="portfolio">
-      <h2>Portfolio</h2>
+      <h2>Explore my work</h2>
       <div className="projects">
         {projects.map((project) => (
           <Project key={project.id} {...project} />

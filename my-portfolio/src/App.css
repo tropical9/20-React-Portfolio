@@ -1,4 +1,4 @@
-.App {
+/* .App {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -45,8 +45,17 @@
     margin-left: auto;
     margin-right: auto;
   }
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
+@layer base {
+  body {
+    font-family: 'Red Hat Display', sans-serif;
+  }
 }
 
-.header {
-  background: #286DA8;
-}
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';

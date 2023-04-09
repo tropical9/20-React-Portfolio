@@ -3,7 +3,7 @@ import React from 'react';
 
 function AboutMe() {
   return (
-    <section className="about-me">
+    <section className="flex ">
       <h2>Let's get to know each other</h2>
       <div className="profile-pic-container">
         {/* <img src={profilePic} alt="Profile" /> */}

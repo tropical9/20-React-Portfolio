@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer() {
   return (
-    <footer>
+    <footer className="bg-[#a7f3d0] h-2/6">
       <div className="container">
-        <p>&copy; 2023 My Portfolio</p>
+        <p>&copy; 2023 Sharmaine Pineda</p>
         <div className="social-links">
           <a href="https://github.com/my-github-profile" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
