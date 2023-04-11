@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Work Day Scheduler',
     description: 'This project was created for the Week 5 challenge of my coding bootcamp. The goal of this challenge is to create a simple calendar application that allows a user to sace enets for each hour of the day. This app will run in the browser and feature a dynamically updated HTML and CSS powered by jQuery.',
-    image: 'https://via.placeholder.com/150',
+    image: 'https://courses.bootcampspot.com/courses/2756/files/2219133/preview',
     github: 'https://github.com/',
     liveDemo: 'https://www.example.com/'
   }

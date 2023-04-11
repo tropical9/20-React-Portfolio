@@ -39,7 +39,7 @@ function Footer() {
 				</a>
 			</div>
 			<div className="mt-8 flex justify-center text-gray-400">
-				<p>&copy; 2023 Sharmaine. All rights reserved.</p>
+				<p>&copy; 2023 Sharmaine.</p>
 			</div>
 		</footer>
 	);
