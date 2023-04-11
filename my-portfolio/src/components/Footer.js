@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
 	return (
-		<footer className="bg-gray-800 py-8 absolute bottom-0 left-0 w-full">
+		<footer className="bg-gray-800 py-8 left-0 w-full">
 			<div className="flex justify-center space-x-6">
 				<a
 					href="https://github.com/tropical9"

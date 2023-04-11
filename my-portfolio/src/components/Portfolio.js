@@ -16,8 +16,29 @@ const projects = [
     liveDemo: 'https://www.example.com/'
   },
   {
-    name: 'Coding',
-    description: 'Stay tuned!',
+    name: 'JATE',
+    description: 'This gist project was created for my coding bootdcamp. The goal of this challenge is to build a test editor that runs in the browser.It will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by browser. This application will also function online.',
+    image: 'https://github.com/tropical9/19-PWA-Text-Editor/blob/main/client/src/images/logo.png?raw=true',
+    github: 'https://github.com/',
+    liveDemo: 'https://www.example.com/'
+  },
+  {
+    name: 'Tech Blog',
+    description: "This project was created for the week 14 challenge of my bootcamp. The goal of this challenge is to build a CMS style blog site similar to Wordpress site, where developers can publish their blog posts and comment on another developer's posts as well.",
+    image: 'https://github.com/tropical9/14-Model-View-Controller-Tech-Blog/blob/main/assets/Homepage.jpg?raw=true',
+    github: 'https://github.com/tropical9/14-Model-View-Controller-Tech-Blog',
+    liveDemo: 'https://www.example.com/'
+  },
+  {
+    name: 'Ecommerce Backend',
+    description: 'This project was created for the week 13 challenge of my coding bootcamp. The goal of this challenge is to build the back end for an e-commerce site.    ',
+    image: '',
+    github: 'https://github.com/tropical9/13-Object-Relational-Mapping-Ecommerce-Backend',
+    liveDemo: 'https://www.example.com/'
+  },
+  {
+    name: 'Work Day Scheduler',
+    description: 'This project was created for the Week 5 challenge of my coding bootcamp. The goal of this challenge is to create a simple calendar application that allows a user to sace enets for each hour of the day. This app will run in the browser and feature a dynamically updated HTML and CSS powered by jQuery.',
     image: 'https://via.placeholder.com/150',
     github: 'https://github.com/',
     liveDemo: 'https://www.example.com/'
@@ -26,7 +47,7 @@ const projects = [
 
 function Portfolio() {
   return (
-    <section>
+    <section className=''>
       <h2>Projects</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {projects.map((project, index) => (
