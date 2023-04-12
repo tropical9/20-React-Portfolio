@@ -21,7 +21,7 @@ function App() {
 	const [current, setCurrentPage] = useState("aboutme");
 
 	// This function checks to see which tab is selected and then generates the appropriate tab.
-	const selectPage = () => {
+	const activePage = () => {
 		switch (current) {
 			case "aboutme":
 				return <AboutMe />;
@@ -42,7 +42,7 @@ function App() {
 				<Header pages={pages} currentPage={current} setCurrentPage={setCurrentPage} />
 			</div>
 			<div>
-				<main>{selectPage()}</main>
+				<main>{activePage()}</main>
 			</div>
 			<div>
 				<Footer />
