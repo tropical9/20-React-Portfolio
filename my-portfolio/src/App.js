@@ -13,14 +13,14 @@ import './App.css';
 
 function App() {
 	const [pages] = useState([
-		{name: "aboutme"},
-		{name: "portfolio"},
-		{name: "contact"},
-		{name: "resume"}
+		  { name: "aboutme", path: "/aboutme" },
+		  { name: "portfolio", path: "/portfolio" },
+		  { name: "contact", path: "/contact" },
+		  { name: "resume", path: "/resume" }
 	]);
 	const [current, setCurrentPage] = useState("aboutme");
 
-	// This function checks to see which tab is selected and then generates the appropriate tab.
+	
 	const activePage = () => {
 		switch (current) {
 			case "aboutme":
@@ -35,20 +35,30 @@ function App() {
 				return null;
 		}
 	};
-
-	return (		
-		<div>
-			<div>
-				<Header pages={pages} currentPage={current} setCurrentPage={setCurrentPage} />
-			</div>
-			<div>
-				<main>{activePage()}</main>
-			</div>
-			<div>
-				<Footer />
-			</div>
-		</div>
-	);
+	
+return (
+    <div>
+      <Router>
+        <div>
+          <Header pages={pages} currentPage={current} setCurrentPage={setCurrentPage} />
+        </div>
+        <div>
+          <Routes>
+            <Route path="/aboutme" element={<AboutMe />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
+          </Routes>
+        </div>
+      </Router>
+      <div>
+        {activePage()}
+      </div>
+      <div>
+        <Footer />
+      </div>
+    </div>
+  );
 }
 
 export default App;

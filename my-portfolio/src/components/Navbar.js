@@ -14,8 +14,8 @@ function Navigation(props) {
           </li>
           <li className="hidden md:block">
             <ul className="flex items-center">
-              <li className={currentPage === "about" ? "mx-2 navActive" : "mx-2"}>
-                <span onClick={() => setCurrentPage("about")} className="text-gray-300 hover:text-white cursor-pointer">
+              <li className={currentPage === "aboutme" ? "mx-2 navActive" : "mx-2"}>
+                <span onClick={() => setCurrentPage("aboutme")} className="text-gray-300 hover:text-white cursor-pointer">
                   About Me
                 </span>
               </li>

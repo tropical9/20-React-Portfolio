@@ -1,5 +1,7 @@
 import React from 'react';
 import profilePic from '../assets/images/profile.jpg';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 function AboutMe() {
   return (
@@ -15,6 +17,8 @@ function AboutMe() {
           </p>
         </div>
       </div>
+      <div><Portfolio/></div>
+      <div><Contact/></div>
     </section>
   );
 }
