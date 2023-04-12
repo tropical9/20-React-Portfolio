@@ -1,7 +1,8 @@
 # React Portfolio
-
+![img](./my-portfolio/src/assets/images/Portfolio.jpg)
 ## Description
 This project was created for the week 20 challenge of my coding bootcamp. The goal of this challenge is to build a portfolio using React.
+
 
 ```
 User Story
@@ -46,7 +47,6 @@ Starter code from class
 
 
 ## Installation
-This application will use Express.js, Sequelize, MySQL database. 
 
 
 ## License
