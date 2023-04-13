@@ -1,4 +1,4 @@
-// import React from 'react';
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
-// import Project from './components/Project';
+
 import './App.css';
 
 
