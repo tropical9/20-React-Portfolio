@@ -37,11 +37,11 @@ const projects = [
     liveDemo: 'https://www.example.com/'
   },
   {
-    name: 'Work Day Scheduler',
-    description: 'This project was created for the Week 5 challenge of my coding bootcamp. The goal of this challenge is to create a simple calendar application that allows a user to sace enets for each hour of the day. This app will run in the browser and feature a dynamically updated HTML and CSS powered by jQuery.',
-    image: 'https://courses.bootcampspot.com/courses/2756/files/2219133/preview',
-    github: 'https://github.com/',
-    liveDemo: 'https://www.example.com/'
+    name: 'Task-A-Saurus',
+    description: "Looking for a way to make a positive impact in your community? Look no further than Task-a-saurus! Our task listing website connects individuals and groups with meaningful tasks that can improve the lives of those around them. Whether you're interested in volunteering your time or donating to support a particular project, we make it easy to get involved and make a difference. From small-scale projects like neighborhood cleanup to larger initiatives like building a community garden, Task-a-saurus is your go-to resource for creating positive change.",
+    image: '',
+    github: 'https://github.com/tropical9/3rd-project-boot-campers',
+    liveDemo: 'https://taskasaurus-app.herokuapp.com/'
   }
 ];
 
